@@ -15,9 +15,15 @@ ul{
     display: flex;                /* display:flex  Dùng để xếp các <li>  từ dọc thành ngang */
     list-style: none;
     gap: 20px;                   /*gap: Dùng để chia khoảng cách giữa các item */
-}
+}                                
+                                 /* inline-block: giữ các chữ trên 1 dòng */
 
-.DanhMuc_Muc{
+                                 /* display: none : Là ẩn đi */
+
+                                 /* list-style: Dùng để xóa dấu chấm đầu câu trong thẻ ul */
+
+
+.DanhMuc_Muc{                        
     margin: 10px;
 }
 
