@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+   <script>
+      document.writeln("Hello World!" + "<br>");   
+
+      let hoTen = "Le Viet Anh" + "<br>";
+
+    //   để khai báo biến JS dùng let hoặc var
+    //   cú pháp: let tên biến = giá trị;
+    //   Để nối chuỗi JS dùng dấu +
+
+
+
+      document.writeln(hoTen);
+
+
+      let soThuNhat = 10;
+      let soThuHai = 5;
+      let ketQua = 0;
+
+      ketQua = soThuNhat / soThuHai;
+
+    //   soThuNhat += soThuHai;
+    //    soThuNhat = soThuNhat + soThuHai
+
+    //    soThuNhat *= soThuHai;
+    //   soThuNhat = soThuNhat * soThuHai
+
+    //    soThuNhat %= 3; 
+    // chia lấy số dư
+
+    // ==  !=   === !==   !:phủ định
+
+    let thongtinSinhvien = {
+              hoTen: "Le Viet Anh",
+              mssv: "2121050104",
+              lop: "Tin kinh te K66",
+              gioitinh: true,
+              tuoi: 22,
+              
+    }
+
+    let diaChi = {
+              thanhpho: "Hà Nội",
+              phuong: "Hà Đông",
+              sonha: "Số 25",
+    }
+
+    thongtinSinhvien.diachi = diaChi;
+
+
+
+    document.writeln("Xin chào bạn: " + thongtinSinhvien.hoTen + thongtinSinhvien.tuoi);
+
+    document.writeln("Xin chào bạn" + thongtinSinhvien.diachi.thanhpho + " " + thongtinSinhvien.diachi.sonha + " " + thongtinSinhvien.diachi.phuong);
+
+    let namNay = 2025;
+
+    document.writeln("Bạn" + thongtinSinhvien.hoTen +  "Sinh năm" + (namNay - thongtinSinhvien.tuoi));
+
+
+    // document.writeln(soThuNhat > soThuHai);
+
+
+
+        
+    
+    
+
+    //   document.writeln(ketQua);
+
+     //   document.writeln(soThuNhat);
+    //   Phép nhân: *
+    //   Phép chia: /
+    //   Tăng 1: ++
+    //   Giảm 1: --
+    //   ketQua = soThuNhat / soThuHai
+    //   Đặt trước ketQUa để ra kết quả
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+   </script>
+
+
+
+</body>
+</html>
